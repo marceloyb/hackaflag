@@ -1,0 +1,28 @@
+
+                       +++   [1m[32m[40mResgate Espacial[0m   +++ 
+
+ [[1m[34m+[0m] Sendo o único especialista em otimização de viagens espaciais pelos 
+     arredores, você foi convocado pela MAZA para uma missão extremamente meticulosa
+     de otimizar a ejeção de cargas de uma espaçonave que está retornando para a
+     Terra.
+
+ [[1m[34m+[0m] Essa espaçonave possui diversas cargas cujo peso de cada uma é conhecido. 
+     A otimização de percurso funciona da seguinte forma: Dada a lista de cargas 
+     presentes na aeronave, sempre que uma carga é liberada, a possibilidade de 
+     distância percorrida aumenta no valor mínimo entre os dois valores adjacentes 
+     ao da carga ejetada. Se uma carga não possui dois valores adjacentes, a
+     distância permanece a mesma, após a ejeção dessa carga.
+
+ [[1m[34m+[0m] Assim, dada a lista de cargas de uma espaçonave, informe qual é o  maior 
+    valor no qual você consegue otimizar a distancia percorrida por essa espaçonave.
+
+ [[1m[34m+[0m] Exemplo:
+    
+    Carga   : 1 2 3 4 5
+    Descarta 4, otimiza 3
+    Descarta 3, otimiza 2
+    Descarta 2, otimiza 1
+    Resposta esperada: 6
+
+ [[1m[34m+[0m] O tempo limite para cada resposta é de 2 segundos.
+
